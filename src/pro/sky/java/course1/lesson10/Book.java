@@ -17,7 +17,11 @@ public class Book {
         return titleBook;
     }
 
-    public String getAuthor() {
+    public Author getAuthor() {
+        return author;
+    }
+
+    public String getAuthorFullName() {
         return author.getFirstName() + " " + author.getLastName();
     }
 

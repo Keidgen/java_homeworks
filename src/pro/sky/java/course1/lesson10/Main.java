@@ -11,10 +11,10 @@ public class Main {
         Book bookLR = new Book("The Lord of the Rings", authorJT, 1954);
 
         bookLR.setYearPublish(1955);
-        System.out.println(bookHPOne.getAuthor() + " " + bookHPOne.getTitleBook() + " " + bookHPOne.getYearPublish());
-        System.out.println(bookHPTwo.getAuthor() + " " + bookHPTwo.getTitleBook() + " " + bookHPTwo.getYearPublish());
-        System.out.println(bookHobbit.getAuthor() + " " + bookHobbit.getTitleBook() + " " + bookHobbit.getYearPublish());
-        System.out.println(bookLR.getAuthor() + " " + bookLR.getTitleBook() + " " + bookLR.getYearPublish());
+        System.out.println(bookHPOne.getAuthorFullName() + " " + bookHPOne.getTitleBook() + " " + bookHPOne.getYearPublish());
+        System.out.println(bookHPTwo.getAuthorFullName() + " " + bookHPTwo.getTitleBook() + " " + bookHPTwo.getYearPublish());
+        System.out.println(bookHobbit.getAuthorFullName() + " " + bookHobbit.getTitleBook() + " " + bookHobbit.getYearPublish());
+        System.out.println(bookLR.getAuthorFullName() + " " + bookLR.getTitleBook() + " " + bookLR.getYearPublish());
 
         System.out.println("Medium");
         Book bookHPThree = new Book("Harry Potter and the Prisoner of Azkaban", authorJR, 1999);
