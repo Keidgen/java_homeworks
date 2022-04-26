@@ -42,6 +42,15 @@ public class Main {
 
         library.changeYearPublish("Harry Potter and the Deathly Hallows", 2011);
         library.printInfoAboutBook("Harry Potter and the Deathly Hallows");
+
+        System.out.println(bookLR.toString());
+        if (bookHPFive.equals(bookHPSeven)) {
+            System.out.println("Это одна и та же книга");
+        } else System.out.println("Книги разные");
+
+        if (bookHobbit.equals(bookHobbit)) {
+            System.out.println("Это одна и та же книга");
+        } else System.out.println("Книги разные");
     }
 
 }
